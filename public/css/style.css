@@ -15,6 +15,40 @@ header img{
     margin-top: 10px;
     }
 
+    .busqueda {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    .cuadroBuscar {
+        background-color: #F5F7F7;
+        border: rgb(56, 56, 56);
+        width: 80%;
+        height: 35px;
+        padding: 3px 10px;
+        font-size: 18px;
+        color: gray;
+        overflow: hidden;
+        border: 1px solid #000407;
+        border-radius: 50px 0 0 50px;
+      text-align:justify;
+    }
+    
+    .iconoBuscar {
+        background-color: #F5F7F7;
+        display: block;
+        width: 40px;
+        height: 35px;
+        padding: 0px 5px 0 0;
+        margin-left: 5px;
+        text-align: center;
+        font-size: 20px;
+        border: 1px solid #000407;
+        padding-top: 4px;
+    }
+
     main section article .description{
         position: relative;
     }
