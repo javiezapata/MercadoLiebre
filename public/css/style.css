@@ -4,6 +4,7 @@ header{
     margin: auto; 
 }
 
+
 nav ul li a{
     text-decoration: none;
     }
@@ -65,6 +66,12 @@ header img{
         position: absolute ;
         right: 20px;
         top: -15px;
+        transition-duration:300ms;
+
+        }
+
+        .fa-truck:hover {
+            transform: rotateZ(-90deg);
         }
 
         * {
@@ -146,9 +153,14 @@ body footer {
        display: none;
    }
 
-  article h4{ color: grey;
+  article h4{ color: #666;
+    display: none;
     font-size: 0.5vw;
     font-weight: lighter;
+    }
+
+    article:hover h4{
+        display: block;
     }
 
 
@@ -164,10 +176,14 @@ article img{
     background-color: rgb(255, 255, 255);
     border-top: 20px;
     padding: 15px;
-    box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.75);
     text-decoration: none;
-     position: relative;
+    position: relative;
     }
+
+    .productos article:hover{
+            box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.75);
+    }
+
     .productos {
         display: flex;
         justify-content: space-around;
@@ -196,7 +212,7 @@ text-align: left;
     article h4{
         font-size:3vw;      }
 
-@media(max-width: 400px){
+@media(max-width: 480px){
     header  .main-hambur{
         margin:auto;
         text-align: center;
@@ -245,7 +261,7 @@ text-align: left;
 }
 
 
-@media(min-width: 720px){
+@media(min-width: 769px){
     .header-div{
         margin: 20px;
         display: inline-block;
@@ -268,6 +284,12 @@ text-align: left;
 
    .menu-nav li{
        margin: 0 7px;
+   }
+
+   footer ul{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
    }
 
 

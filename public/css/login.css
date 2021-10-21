@@ -19,9 +19,15 @@
 
 #enviar{
    padding: 5px 10px 5px 10px;   
-   background-color: blue;
-   color: white;
+   background-color: rgb(206, 226, 235);
+   color: #0022AA;
    font-weight: bold;
+   transition-duration: 200ms;
+}
+
+#enviar:hover{
+    background-color:#0022AA ;
+    color: rgb(206, 226, 235);
 }
 
 #div-enviar{
