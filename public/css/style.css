@@ -20,7 +20,9 @@ header img{
         display: flex;
         justify-content: center;
         margin: auto;
-        margin-top: 8px;
+        margin-top: 25px;
+        
+
     }
 
     .cuadroBuscar {
@@ -255,8 +257,54 @@ text-align: left;
         }
         .productos{
             text-align: left;
+        } 
+
+}
+
+@media(max-width: 768px){
+    header  .main-hambur{
+        margin:auto;
+        text-align: center;
+        list-style:none;
+    }
+
+    .fa-bars{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        margin-top: 10px;
+       }
+
+    header  nav{  
+        display: none;         
+    }
+
+
+    article img{
+        align-items: center;
+    }
+   
+
+    .titulares{
+        color:grey;
+    }
+
+    .cuerpo article{
+    padding: auto;
+    }
+    .productos article{
+        width: 50%;
         }
     
+        .productos img{
+        width: 50vw;
+        }
+        .productos{
+            text-align: left;
+        } 
 
 }
 
@@ -268,6 +316,10 @@ text-align: left;
         display: flex;
         justify-content: space-between;
         box-sizing: border-box;
+    }
+    
+    .busqueda{
+        width: 50%;
     }
     #compra{
         text-align: right;
@@ -320,8 +372,9 @@ text-align: left;
      article h4{ color: grey;
         font-size: 2vw;
         font-weight: lighter;
-
+            }
+        .busqueda{
+            width: 40%;
         }
-        
 }
 
