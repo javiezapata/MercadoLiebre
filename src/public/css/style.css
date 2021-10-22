@@ -1,0 +1,382 @@
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    margin: auto; 
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    }
+
+header img{
+    max-width:100%;
+    border: 20px;
+    margin: 2px;
+    margin-top: 10px;
+    }
+
+    .busqueda {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 25px;
+        
+
+    }
+
+    .cuadroBuscar {
+        background-color: #F5F7F7;
+        border: rgb(56, 56, 56);
+        width: 80%;
+        height: 35px;
+        padding: 3px 10px;
+        font-size: 18px;
+        color: gray;
+        overflow: hidden;
+        border: 1px solid #000407;
+        border-radius: 50px 0 0 50px;
+      text-align:justify;
+    }
+    
+    .iconoBuscar {
+        background-color: #F5F7F7;
+        display: block;
+        width: 40px;
+        height: 35px;
+        padding: 0px 5px 0 0;
+        margin-left: 5px;
+        text-align: center;
+        font-size: 20px;
+        border: 1px solid #000407;
+        padding-top: 4px;
+    }
+
+    main section article .description{
+        position: relative;
+    }
+
+    .fa-truck {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a ;
+        background-color: #FFF ;
+        border-radius: 50% ;
+        position: absolute ;
+        right: 20px;
+        top: -15px;
+        transition-duration:300ms;
+
+        }
+
+        .fa-truck:hover {
+            transform: rotateZ(-90deg);
+        }
+
+        * {
+            margin: 0 px ;
+            padding: 0 px ;
+            box-sizing: border-box ;
+            }
+    
+#compra{
+    font-weight:400;
+    text-align: center;
+    border: 7px;
+    }
+    .precio-descuento{
+        display: flex;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+
+.precios{
+    font-size: 18px;
+    }
+
+.descuentos{
+    font-size: 16px;
+    color: green;
+    }
+
+.publicidad img{
+    max-width:98vw;
+    }
+
+.titulares{
+    margin-left: 15px;
+    font-size: 24px;    
+    }
+
+ul  {
+    list-style: none;
+    }
+
+body footer {
+    text-align: center
+    }
+
+#caja{
+    margin: 20px;
+    text-align: center;
+    background-color: #ebebeb;
+    height: 20px;
+    width: 200px;
+    color: #666;
+    border: 2px solid #666; 
+    border-radius: 6px;
+    }
+
+   #busqueda{
+    text-align: center;
+    background-color:#ebebeb; 
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+   }
+
+    .fa-truck{
+    color: green;
+    border: greend solid ;
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    }
+
+   .fa-credit-card, .fa-user-shield, .fa-gift{color: blue;
+    size: 7x;
+    }
+
+   header  .main-hambur{
+       display: none;
+   }
+
+  article h4{ color: #666;
+    display: none;
+    font-size: 0.5vw;
+    font-weight: lighter;
+    }
+
+    article:hover h4{
+        display: block;
+    }
+
+
+article img{
+    width: 300px;
+    align-items: center;
+    }
+
+.productos article{
+    width: 300px;
+    box-sizing: content-box;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+    }
+
+    .productos article:hover{
+            box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .productos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+     }
+    
+
+.productos article a h4{
+text-align: left;
+    }
+
+    .productos article a {
+        margin: 0 7px;
+            }
+    
+
+.publicidad{
+    width: 300px;
+    }
+
+.cuerpo{
+       background-color:#ebebeb; 
+    }
+
+    article h4{
+        font-size:3vw;      }
+
+@media(max-width: 480px){
+    header  .main-hambur{
+        margin:auto;
+        text-align: center;
+        list-style:none;
+    }
+
+    .fa-bars{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        margin-top: 10px;
+       }
+
+    header  nav{  
+        display: none;         
+    }
+
+
+    article img{
+        align-items: center;
+    }
+   
+
+    .titulares{
+        color:grey;
+    }
+
+    .cuerpo article{
+    padding: auto;
+    }
+    .productos article{
+        width: 50%;
+        }
+    
+        .productos img{
+        width: 50vw;
+        }
+        .productos{
+            text-align: left;
+        } 
+
+}
+
+@media(max-width: 768px){
+    header  .main-hambur{
+        margin:auto;
+        text-align: center;
+        list-style:none;
+    }
+
+    .fa-bars{
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        margin-top: 10px;
+       }
+
+    header  nav{  
+        display: none;         
+    }
+
+
+    article img{
+        align-items: center;
+    }
+   
+
+    .titulares{
+        color:grey;
+    }
+
+    .cuerpo article{
+    padding: auto;
+    border:solid 1px #ebebeb;
+    padding: 15px 15px 15px 15px;
+    }
+    .productos article{
+        width: 50%;
+        }
+    
+        .productos img{
+        width: 50vw;
+        }
+        .productos{
+            text-align: left;
+        } 
+
+}
+
+
+@media(min-width: 769px){
+    .header-div{
+        margin: 20px;
+        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    
+    .busqueda{
+        width: 50%;
+    }
+    #compra{
+        text-align: right;
+    }
+   .menu-nav{
+     
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .menu-nav ul{
+       display: flex;
+   }
+
+   .menu-nav li{
+       margin: 0 7px;
+   }
+
+   footer ul{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+   }
+
+
+}
+
+
+@media(min-width: 1200px){
+    .header{
+        max-width: none;
+        margin: auto;
+    }
+
+    .header-div{
+        margin: 0 10px;
+        align-items: center;
+    }
+
+    .menu-nav{
+        margin-bottom: 50px;
+    }
+    .menu-nav li{
+       margin:25px 15px;
+    }
+    .menu-nav a{
+     font-size: 19px;
+     }
+
+     article h4{ color: grey;
+        font-size: 2vw;
+        font-weight: lighter;
+            }
+        .busqueda{
+            width: 40%;
+        }
+}
+
